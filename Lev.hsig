@@ -1,0 +1,6 @@
+{-# Language KindSignatures #-}
+{-# Language StandaloneKindSignatures #-}
+signature Lev where
+import GHC.Types (Levity)
+
+data Lev :: Levity
